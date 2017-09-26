@@ -1,0 +1,2 @@
+# yemazon.github.io
+blog
