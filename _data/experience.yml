@@ -1,0 +1,35 @@
+# Experience template
+- layout: left
+  company: Amazon Inc.
+  job_title: Software Engineer
+  dates: March 2020 - present
+  quote: >
+   AWS IoT
+  description: | # this will include new lines to allow paragraphs
+    | Working on an amazing AWS IoT Service, COMING SOON in 2020 AWS re:Invent
+- layout: left
+  company: Zume Inc.
+  job_title: Software Engineer III / Software Engineer II
+  dates: October 2018 - March 2020
+  quote: >
+   Software Engineer shaping the food industry and the life of developers.
+  description: | # this will include new lines to allow paragraphs
+    | Designed scalable and reliable micro-services with NodeJS and Typescript
+    | Built the Zume Platform and enhanced the last mile delivery experience
+    | Created flexible technology stack and API framework to support multiple 3P delivery services
+    | Integrated the delivery updates with the message bus
+    | Built infrastructure platform on kubernetes, designed the monitoring system, logging system, load balancer, networking, deployment package manager(Helm).
+    | Designed CI/CD pipelines with Jenkins and Spinnaker, managing them on kubernetes
+    | Migrated services from Heroku to Kubernetes platform
+- layout: left
+  company: Amazon Inc.
+  # link: Link to company (optional)
+  job_title: Software Engineer Intern
+  dates: May 2017 - August 2017
+  quote: >
+   Fire TV Catelog
+  description: | # this will include new lines to allow paragraphs
+    | Designed and implemented an internal search service with Elasticsearch.
+    | Migrated data from DynamoDB to Elasticsearch using AWS Lambda. Provided both updating and backfilling functions for all the JSON data. 
+    | Integrated UI using Kibana.
+    | Performed unit tests and integration tests using TestNG and Mockito.

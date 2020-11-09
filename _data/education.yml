@@ -1,0 +1,17 @@
+# Education Template
+- layout: left
+  name: New York University
+  dates: 2016 - 2018
+  qualification: MS Computer Engineering
+  # quote: >
+  #   Short institution or course description (optional)
+  # description: | # this will include new lines to allow paragraphs
+  #   New York, NY
+- layout: left
+  name: Shanghai Jiao Tong University
+  dates: 2012 - 2016
+  qualification: BS Electrical Engineering
+  # quote: >
+  #   Short institution or course description (optional)
+  # description: | # this will include new lines to allow paragraphs
+  #   Description of qualification

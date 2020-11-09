@@ -1,0 +1,10 @@
+# Project template
+- layout: top-middle
+  name: AWS IoT NEW SERVICE
+  link: https://reinvent.awsevents.com/
+  # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  quote: >
+    A NEW AWS Service coming this December 15TH
+  description: | # this will include new lines to allow paragraphs
+    Change the way of devices all over the world.
+# Description about the work on/with the project
