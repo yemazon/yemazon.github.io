@@ -6,8 +6,7 @@
   quote: >
    AWS IoT Core Device Advisor
   description: | # this will include new lines to allow paragraphs
-    | Launched AWS IoT Core Device Advisor, announced in 2020 AWS re:Invent
-    | https://aws.amazon.com/about-aws/whats-new/2020/12/aws-iot-core-device-advisor-now-available-in-preview/
+    | Launched AWS IoT Core Device Advisor
 - layout: left
   company: Zume Inc.
   job_title: Software Engineer III / Software Engineer II

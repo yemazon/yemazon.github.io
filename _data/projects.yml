@@ -1,10 +1,10 @@
 # Project template
 - layout: top-middle
-  name: AWS IoT NEW SERVICE
-  link: https://reinvent.awsevents.com/
+  name: AWS IoT Core Device Advisor
+  link: https://aws.amazon.com/about-aws/whats-new/2020/12/aws-iot-core-device-advisor-now-available-in-preview/
   # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
   quote: >
-    A NEW AWS Service coming this December 15TH
+    AWS IoT Core Device Advisor announced 2020 DEC 15
   description: | # this will include new lines to allow paragraphs
-    Change the way of devices all over the world.
+    Device Advisor is a fully managed cloud-based test capability for validating IoT devices during development. It provides pre-built tests that helps developers to validate their IoT devices for reliable and secure connectivity with AWS IoT Core.
 # Description about the work on/with the project
