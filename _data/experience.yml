@@ -4,9 +4,10 @@
   job_title: Software Engineer
   dates: March 2020 - present
   quote: >
-   AWS IoT
+   AWS IoT Core Device Advisor
   description: | # this will include new lines to allow paragraphs
-    | Working on an amazing AWS IoT Service, COMING SOON in 2020 AWS re:Invent
+    | Launched AWS IoT Core Device Advisor, announced in 2020 AWS re:Invent
+    | https://aws.amazon.com/about-aws/whats-new/2020/12/aws-iot-core-device-advisor-now-available-in-preview/
 - layout: left
   company: Zume Inc.
   job_title: Software Engineer III / Software Engineer II
