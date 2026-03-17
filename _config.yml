@@ -1,10 +1,11 @@
+---
 # Site
 repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
 name: Yezhong Xu
-title: Software Engineer in Amazon Web Service
+title: Senior Software Engineer
 email: safjisaogmivus@gmail.com
 # phone: Your phone number (optional)
 website: https://yemazon.github.io/
@@ -29,9 +30,6 @@ linkedin_username: yezhongxu
 
 # Additional icon links
 additional_links:
-# - title: Link name
-#   icon: Font Awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -46,19 +44,23 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-     Experienced Software Engineer with a demonstrated history of working in the industry. Hand-on Skills in developing micro-services using Kotlin/Java and Javascript/Typescript. 
-    
-     1 Year + experience in build AWS Services.
-     
-     1 Year + experience in building kubernetes platform and related CI/CD pipelines. 
-  
-  # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Senior Software Engineer with 8+ years of experience building **production-grade AI and backend systems**.
 
-  # You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-  #   - Lists
-  #   - Tables
-  #   - <a href="google.com">Links</a>
-  #   - Images
+  I specialize in:
+  - LLM-powered product systems
+  - Applied ML in production
+  - Streaming AI APIs and async architectures
+  - Evaluation and monitoring pipelines
+  - Multi-language AI generation systems
+  - Cost and latency optimization for large-scale inference
+
+  My recent work focuses on designing and scaling AI messaging platforms that generate, refine, and evaluate high-quality outreach content with measurable business impact.
+
+  Engineering principles:
+  - Quality must be measurable
+  - Latency and cost are product features
+  - Structured outputs reduce downstream complexity
+  - Production AI is a systems engineering challenge, not just a modeling task
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
@@ -72,21 +74,26 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 # more_title: A Little More About Me #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
-  I believe technology is the future of human being.
+  **Technical skills**
 
-  I believe milk tea is the soul of appetite.
+  **Languages:** Python, Java, SQL
 
-  I believe league of legends is the best game ever.
+  **AI/ML:** Prompt engineering, structured generation, evaluation frameworks, hallucination detection, synthetic dataset generation, benchmarking
 
-# This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-# Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  **Backend/Infra:** gRPC, distributed systems, microservices, streaming APIs, async architecture, observability
+
+  **Data:** Spark/batch pipelines, metrics analysis, experimentation and A/B impact evaluation
+
+  **Career focus**
+
+  Applied AI infrastructure • LLM systems at scale • AI evaluation and safety • high-performance inference platforms • product-facing AI applications
 
 # Footer
 footer_show_references: true
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting on GitHub)
 
 sass:
   sass_dir: _sass
