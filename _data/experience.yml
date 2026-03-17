@@ -1,35 +1,50 @@
 # Experience template
 - layout: left
-  company: Amazon Inc.
-  job_title: Software Engineer
+  company: Amazon
+  job_title: Senior Software Engineer
   dates: March 2020 - present
   quote: >
-   AWS IoT Core Device Advisor
-  description: | # this will include new lines to allow paragraphs
-    | Launched AWS IoT Core Device Advisor
+    Building production-grade AI messaging systems and evaluation infrastructure at scale.
+  description: |
+    Led design and implementation of large-scale **LLM-powered messaging systems** used for recruiter outreach and message refinement.
+
+    Key contributions include:
+    - Productionized an **LLM-as-a-judge evaluation framework** with strict structured outputs, schema validation, and multi-criteria scoring for quality, personalization, and safety.
+    - Built **streaming AI APIs** for low-latency generation and refinement using async orchestration and backpressure-safe delivery patterns.
+    - Developed **AI message refinement workflows** with tone/length control, intent-aware prompting, and constrained structured generation.
+    - Scaled **multi-language AI outreach** to 10+ locales with language-aware prompts, fallback strategies, and calibrated evaluations.
+    - Delivered **high-throughput AI infrastructure** with robust retries, idempotent processing, observability dashboards, and cost/latency optimization.
+
+    Business impact:
+    - Improved quality regression detection and model iteration speed.
+    - Reduced hallucinations and improved reliability of generated content.
+    - Increased AI-assisted messaging adoption and recruiter productivity.
+    - Enabled cost-aware and latency-optimized production AI operations.
+
+    Core stack: Python, Java, SQL, gRPC, distributed systems, async services, streaming APIs, evaluation pipelines, observability.
+
 - layout: left
-  company: Zume Inc.
+  company: Zume
   job_title: Software Engineer III / Software Engineer II
   dates: October 2018 - March 2020
   quote: >
-   Software Engineer shaping the food industry and the life of developers.
-  description: | # this will include new lines to allow paragraphs
-    | Designed scalable and reliable micro-services with NodeJS and Typescript
-    | Built the Zume Platform and enhanced the last mile delivery experience
-    | Created flexible technology stack and API framework to support multiple 3P delivery services
-    | Integrated the delivery updates with the message bus
-    | Built infrastructure platform on kubernetes, designed the monitoring system, logging system, load balancer, networking, deployment package manager(Helm).
-    | Designed CI/CD pipelines with Jenkins and Spinnaker, managing them on kubernetes
-    | Migrated services from Heroku to Kubernetes platform
+    Built scalable backend systems for logistics and delivery workflows.
+  description: |
+    - Designed reliable microservices with Node.js and TypeScript.
+    - Built platform APIs to support multi-partner delivery integrations.
+    - Integrated delivery updates with event-driven messaging systems.
+    - Built Kubernetes-based infrastructure including monitoring, logging, networking, and deployment tooling.
+    - Designed and maintained CI/CD pipelines with Jenkins and Spinnaker.
+    - Migrated services from Heroku to Kubernetes platform.
+
 - layout: left
-  company: Amazon Inc.
-  # link: Link to company (optional)
+  company: Amazon
   job_title: Software Engineer Intern
   dates: May 2017 - August 2017
   quote: >
-   Fire TV Catelog
-  description: | # this will include new lines to allow paragraphs
-    | Designed and implemented an internal search service with Elasticsearch.
-    | Migrated data from DynamoDB to Elasticsearch using AWS Lambda. Provided both updating and backfilling functions for all the JSON data. 
-    | Integrated UI using Kibana.
-    | Performed unit tests and integration tests using TestNG and Mockito.
+    Search and data indexing platform for media catalog workflows.
+  description: |
+    - Designed and implemented a search service based on Elasticsearch.
+    - Migrated data from DynamoDB to Elasticsearch with update and backfill Lambda workflows.
+    - Integrated Kibana dashboards for search data visibility.
+    - Implemented unit and integration tests with TestNG and Mockito.
