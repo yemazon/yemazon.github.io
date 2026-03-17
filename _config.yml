@@ -30,9 +30,6 @@ linkedin_username: yezhongxu
 
 # Additional icon links
 additional_links:
-- title: LinkedIn
-  icon: fab fa-linkedin
-  url: https://www.linkedin.com/in/yezhongxu/
 # - title: another link
 #   icon: font awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
