@@ -1,8 +1,8 @@
 # Experience template
 - layout: left
-  company: Amazon
+  company: LinkedIn
   job_title: Senior Software Engineer
-  dates: March 2020 - present
+  dates: 2024 - present
   quote: >
     Building production-grade AI messaging systems and evaluation infrastructure at scale.
   description: |
@@ -12,7 +12,7 @@
     - Productionized an **LLM-as-a-judge evaluation framework** with strict structured outputs, schema validation, and multi-criteria scoring for quality, personalization, and safety.
     - Built **streaming AI APIs** for low-latency generation and refinement using async orchestration and backpressure-safe delivery patterns.
     - Developed **AI message refinement workflows** with tone/length control, intent-aware prompting, and constrained structured generation.
-    - Scaled **multi-language AI outreach** to 10+ locales with language-aware prompts, fallback strategies, and calibrated evaluations.
+    - Scaled **multi-language AI outreach** with language-aware prompts, fallback strategies, and calibrated evaluations.
     - Delivered **high-throughput AI infrastructure** with robust retries, idempotent processing, observability dashboards, and cost/latency optimization.
 
     Business impact:
@@ -21,7 +21,17 @@
     - Increased AI-assisted messaging adoption and recruiter productivity.
     - Enabled cost-aware and latency-optimized production AI operations.
 
-    Core stack: Python, Java, SQL, gRPC, distributed systems, async services, streaming APIs, evaluation pipelines, observability.
+- layout: left
+  company: Amazon
+  job_title: Software Engineer
+  dates: March 2020 - 2024
+  quote: >
+    Cloud services development in IoT and backend platform systems.
+  description: |
+    - Launched customer-facing capabilities in managed cloud services.
+    - Designed and implemented backend APIs and service integrations for scalable platform use cases.
+    - Improved service reliability, monitoring coverage, and operational readiness for production workloads.
+    - Partnered across engineering and product teams to deliver features with measurable customer impact.
 
 - layout: left
   company: Zume
