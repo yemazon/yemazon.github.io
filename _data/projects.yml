@@ -4,7 +4,7 @@
   quote: >
     Multi-dimensional quality evaluation for AI-generated messaging.
   description: |
-    Designed and productionized a scalable evaluation pipeline for AI-generated outreach content.
+    Designed and productionized a scalable evaluation pipeline for AI-generated outreach content at LinkedIn.
 
     - Built structured JSON-schema prompts with strict validation.
     - Added multi-criteria scoring across accuracy, coherence, personalization, engagement, and confidentiality.
@@ -21,7 +21,7 @@
   quote: >
     Low-latency streaming generation and refinement APIs.
   description: |
-    Implemented real-time AI messaging services for incremental token delivery and responsive UX.
+    Implemented real-time AI messaging services for incremental token delivery and responsive UX at LinkedIn.
 
     - Designed gRPC streaming contracts and async generator-based orchestration.
     - Implemented partial chunk delivery with structured parsing safeguards.
@@ -38,7 +38,7 @@
   quote: >
     Personalized follow-up generation for recruiter outreach workflows.
   description: |
-    Built and scaled AI-assisted follow-up drafting using contextual signals from recipient profile, job context, sender profile, and prior outreach.
+    Built and scaled AI-assisted follow-up drafting at LinkedIn using contextual signals from recipient profile, job context, sender profile, and prior outreach.
 
     - Enabled support for both 1:1 and bulk follow-up workflows.
     - Integrated with default drafting experiences and existing user controls.
@@ -54,7 +54,7 @@
   quote: >
     AI personalization layer for existing outreach templates.
   description: |
-    Developed AI-assisted touch-up capabilities to personalize pre-written templates while preserving message structure, formatting, and sender voice.
+    Developed AI-assisted touch-up capabilities at LinkedIn to personalize pre-written templates while preserving message structure, formatting, and sender voice.
 
     - Supported contextual insertion of recipient-relevant content into templates.
     - Preserved rich text formatting and template version comparability.
@@ -70,7 +70,7 @@
   quote: >
     Internationalized AI-generated messaging with quality consistency.
   description: |
-    Led language expansion for AI messaging workflows.
+    Led language expansion for AI messaging workflows at LinkedIn.
 
     - Built language-aware prompt templates and locale-aware generation paths.
     - Added safe fallback handling for unsupported/low-confidence outputs.
