@@ -138,7 +138,7 @@ h1 {
 
 .proof-card { padding: 24px 0 24px 34px; border-bottom: 1px solid var(--line); }
 .proof-card:last-child { border-bottom: 0; }
-.proof-value { display: block; color: var(--navy); font-family: Georgia, serif; font-size: 2.4rem; line-height: 1; }
+.proof-value { display: block; color: var(--navy); font-family: Georgia, serif; font-size: clamp(1.85rem, 2.6vw, 2.4rem); line-height: 1; }
 .proof-label { display: block; margin-top: 8px; color: var(--muted); font-size: 0.9rem; }
 
 .capability-strip {
