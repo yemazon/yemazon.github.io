@@ -247,10 +247,12 @@ footer h2 {
 .principles-grid h3 { margin: 18px 0 10px; font-size: 1.15rem; }
 .principles-grid p { margin-bottom: 0; color: var(--muted); font-size: 0.94rem; }
 
-.skills-panel { display: grid; grid-template-columns: 0.7fr 1.3fr 1.2fr; gap: 24px; margin-top: 46px; padding: 28px 30px; border-radius: 18px; background: var(--navy); color: white; }
-.skills-panel > div { display: grid; gap: 8px; }
+.skills-panel { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; margin-top: 46px; border-radius: 18px; background: var(--navy); color: white; overflow: hidden; }
+.skills-panel > div { display: grid; align-content: start; gap: 10px; min-height: 142px; padding: 30px; border-right: 1px solid rgba(255, 255, 255, 0.13); border-bottom: 1px solid rgba(255, 255, 255, 0.13); }
+.skills-panel > div:nth-child(2n) { border-right: 0; }
+.skills-panel > div:nth-last-child(-n + 2) { border-bottom: 0; }
 .skills-label { color: #a9d8d2; font-size: 0.74rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; }
-.skills-panel strong { font-size: 0.92rem; line-height: 1.5; }
+.skills-panel strong { max-width: 520px; font-size: 0.92rem; line-height: 1.65; }
 
 footer {
   display: flex;
@@ -280,6 +282,9 @@ footer h2 { max-width: 650px; margin-bottom: 0; }
   .timeline-item { grid-template-columns: 1fr; gap: 8px; }
   .principles-grid { grid-template-columns: 1fr; }
   .skills-panel { grid-template-columns: 1fr; }
+  .skills-panel > div { min-height: auto; border-right: 0; border-bottom: 1px solid rgba(255, 255, 255, 0.13); }
+  .skills-panel > div:nth-last-child(-n + 2) { border-bottom: 1px solid rgba(255, 255, 255, 0.13); }
+  .skills-panel > div:last-child { border-bottom: 0; }
   footer { align-items: start; flex-direction: column; }
 }
 
